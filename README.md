@@ -31,9 +31,9 @@ python -m venv .venv
 - 使用定时任务时保持电脑开机、联网，并关闭会影响任务的自动睡眠、休眠。
 - 放号时间、可预约日期和预约限制以学校平台实际提示为准。
 <p align="center">
-  <img src="docs/assets/picture1.jpg" width="45%" alt="图1">
-  &nbsp;&nbsp;
-  <img src="docs/assets/picture2.jpg" width="45%" alt="图2">
+  <img src="docs/assets/picture1.jpg" width="47%" alt="预约专区截图">
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="docs/assets/picture2.jpg" width="47%" alt="使用说明">
 </p>
 ## 操作步骤
 
