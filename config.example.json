@@ -1,0 +1,16 @@
+{
+  "user_id": "",
+  "password": "",
+  "remember": false,
+  "venues": {},
+  "date": "",
+  "last_venue": "",
+  "exec_day": "今天",
+  "exec_time": "立即执行",
+  "schedule_mode": "夏季作息",
+  "live_log": true,
+  "timing_diag": true,
+  "sprint_mode": false,
+  "auto_next_day": false,
+  "export_log": false
+}

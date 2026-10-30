@@ -1,0 +1,35 @@
+XJTU SPORT · 经典界面
+
+直接使用
+双击本文件夹内的 sport.exe，无需安装 Python。
+自行填写本人的 NetID 和密码，选择日期、场馆、场地及时间，点击“开始任务”。
+使用“停止任务”结束当前执行；关闭主窗口后，程序会收至系统托盘。
+校园登录时的验证码或二次验证需在浏览器内手动完成；请保持 Microsoft Edge 和网络可用。
+
+账号与配置
+公开项目不附带个人配置。默认不保存账号密码。
+如主动勾选“记住账号密码与所有设置”，程序会在本机生成 config.json。
+其中密码仅使用 Base64 编码，Base64 不是加密；不要将 config.json 上传至 GitHub。
+config.example.json 是无账号、无密码的示例，可供参考；不复制也能启动程序。
+运行日志、登录诊断、浏览器会话和本机备份均不应上传。
+
+运行 Python 源码
+主程序为单个 sport.py，包含界面、登录导航和预约逻辑。
+在本目录打开 PowerShell：
+  python -m venv .venv
+  .\.venv\Scripts\python.exe -m pip install -r requirements.txt
+  .\.venv\Scripts\python.exe sport.py
+
+重新打包
+在本目录的 PowerShell 中执行：
+  .\build.ps1
+已有依赖时可执行：
+  .\build.ps1 -SkipInstall
+脚本根据 sport.spec 生成 dist\sport.exe，并复制到本目录。
+requirements.txt 为运行依赖，requirements-build.txt 包含额外的打包依赖。
+个人配置不会嵌入 exe。
+
+发布源码
+使用 README.md 中的安装与编译说明。
+.gitignore 已排除个人配置、日志、诊断、浏览器状态、备份、虚拟环境和编译产物。
+仓库保留 config.example.json，不包含本人的运行数据。

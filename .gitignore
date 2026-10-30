@@ -1,0 +1,76 @@
+# Personal configuration and credentials
+config.json
+config.local.json
+config.*.local.json
+.env
+.env.*
+!.env.example
+.secrets/
+secrets.json
+credentials.json
+*.pem
+*.key
+*.pfx
+*.p12
+
+# Authentication state and browser profiles
+.cache/
+playwright_edge_profile/
+browser_profile/
+browser_profiles/
+chrome_profile/
+edge_profile/
+user_data/
+cookies/
+sessions/
+*cookie*.json
+*cookie*.txt
+*session*.json
+storage_state*.json
+*.har
+*.sqlite
+*.sqlite3
+
+# Runtime records and local backups
+*.log
+logs/
+diagnostics/
+login_diagnostics/
+output/
+backups/
+*.bak
+*.backup
+
+# Python environments and generated files
+.venv/
+.venv*/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+*.egg-info/
+
+# Build products and release archives
+build/
+dist/
+release/
+releases/
+*.exe
+*.msi
+*.zip
+*.7z
+*.rar
+*.tar
+*.gz
+
+# Local editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.tmp
+*.swp
