@@ -34,6 +34,7 @@ python -m venv .venv
   <img src="docs/assets/picture1.jpg" style="height:320px; object-fit:contain; margin:0 8px;">
   <img src="docs/assets/picture2.jpg" style="height:320px; object-fit:contain; margin:0 8px;">
 </p>
+
 ## 操作步骤
 
 1. 在“基础信息”填写本人的 **NetID 账号和密码**。
