@@ -30,8 +30,11 @@ python -m venv .venv
 - 确保门户中能找到“预约专区”或“体育场馆预约”。如果首页没有，可在门户的“服务”中进入“管理”，添加“预约专区”。
 - 使用定时任务时保持电脑开机、联网，并关闭会影响任务的自动睡眠、休眠。
 - 放号时间、可预约日期和预约限制以学校平台实际提示为准。
-![picture1](docs/assets/picture1.jpg)
-![picture2](docs/assets/picture2.jpg)
+<p align="center">
+  <img src="docs/assets/picture1.jpg" width="45%" alt="图1">
+  &nbsp;&nbsp;
+  <img src="docs/assets/picture2.jpg" width="45%" alt="图2">
+</p>
 ## 操作步骤
 
 1. 在“基础信息”填写本人的 **NetID 账号和密码**。
